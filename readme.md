@@ -48,9 +48,9 @@ class FoobarServiceProvider extends ServiceProvider<br/>
   });<br/>
     }<br/>
 }</blockquote>
-<p>4. Now, open the file config/app.php and add the service provider to providers array:</p>
+<p>4. Now, open the file <code>config/app.php</code> and add the service provider to providers array:</p>
 <blockquote>App\Providers\FoobarServiceProvider::class,</blockquote>
-<p>5. Inside config/app.php add the alias of Foobar to aliases array:</p>
+<p>5. Inside <code>config/app.php</code> add the alias of Foobar to aliases array:</p>
 <blockquote>'Foobar' => App\Facades\Foobar::class,</blockquote>
 <p>6. Add the following route into <code>routes/web.php</code></p>
 <blockquote>
