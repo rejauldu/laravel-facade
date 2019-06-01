@@ -58,4 +58,4 @@ Route::get('/foo', function () {<br/>
     return Foobar::show();<br/>
 });
 </blockquote>
-<p>7. Now when you go to the <code>'/foo'</code> address you will get a 'Hello World' message.</p>
+<p>7. Now when you go to the <code>'/foobar'</code> address you will get a 'Hello World' message.</p>
