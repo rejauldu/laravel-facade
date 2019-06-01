@@ -54,7 +54,7 @@ class FoobarServiceProvider extends ServiceProvider<br/>
 <blockquote>'Foobar' => App\Facades\Foobar::class,</blockquote>
 <p>6. Add the following route into <code>routes/web.php</code></p>
 <blockquote>
-Route::get('/foo', function () {<br/>
+Route::get('/foobar', function () {<br/>
     return Foobar::show();<br/>
 });
 </blockquote>
